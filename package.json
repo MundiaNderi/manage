@@ -1,0 +1,24 @@
+{
+  "name": "manage",
+  "version": "1.0.0",
+  "description": "Manage landing page with tailwind css, html and JS",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/MundiaNderi/manage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MundiaNderi/manage/issues"
+  },
+  "homepage": "https://github.com/MundiaNderi/manage#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
